@@ -1,0 +1,154 @@
+/* общие стили */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* стили хедера */
+.header-top {
+  border-bottom: 1px solid #dedede;
+}
+.header-top-info {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  align-items: center;
+}
+.top-menu {
+  display: flex;
+  width: 945px;
+  justify-content: space-between;
+}
+.top-menu-left,
+.top-menu-right {
+  display: flex;
+  list-style-type: none;
+}
+/* a-ссылки пишем в топ меню, чтобы подчеркивание убрать именно там, а остальные ссылки остались с подчеркиванием */
+.top-menu-left a,
+.top-menu-right a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+}
+.top-menu-left {
+  width: 352px;
+  justify-content: space-between;
+}
+.top-menu-right {
+  width: 340px;
+  justify-content: space-between;
+}
+.main-menu-list {
+  display: flex;
+  height: 73px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+
+  /*  margin: 0 auto; */
+}
+.main-menu-list a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #424242;
+}
+/* стили баннера */
+.banner-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-decoration: none;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  background-color: #3a95ff;
+  color: #ffffff;
+}
+.btn {
+  width: 200px;
+  height: 55px;
+  left: 627px;
+  top: 402px;
+
+  border: 1px solid #3a95ff;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.btn-secondary {
+  display: flex;
+  justify-content: center;
+align-items: center; 
+  text-decoration: none;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  background-color: #ffffff;
+  color: #3a95ff;
+
+}
+
+/* .button1 {
+  position: absolute;
+  width: 200px;
+  height: 55px;
+  left: 390px;
+  top: 402px;
+  background: #3a95ff;
+  border-radius: 3px;
+}
+.button1text {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: honeydew;
+}
+.button2 {
+    border: 3px solid #3A95FF;
+    width: 200px;
+    height: 55px;
+    left: 390px;
+    top: 402px;
+    background: #ffffff;
+    border-radius: 3px; 
+}
+.button2text {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A95FF;
+}
+.banner-info-pic {
+    display: flex;
+    justify-content: right;
+}  */
